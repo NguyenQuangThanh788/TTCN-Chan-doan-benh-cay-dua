@@ -1,0 +1,12 @@
+# Các thư viện cần thiết cho script/generate_labels.py
+# Thư viện Deep Learning & Keras để load model và predict
+tensorflow>=2.15.0
+
+# Xử lý mảng ma trận và tensor
+numpy>=1.23.0
+
+# Xử lý, đọc và resize ảnh (cần thiết cho tf.keras.utils.load_img)
+Pillow>=9.0.0
+
+# Hỗ trợ load và lưu mô hình Keras định dạng HDF5 (.h5)
+h5py>=3.8.0
